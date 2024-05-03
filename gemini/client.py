@@ -191,7 +191,7 @@ class Gemini:
         return urllib.parse.urlencode(
             {
                 "bl": URLs.BOT_SERVER.value,
-                "hl": os.environ.get("GEMINI_LANGUAGE", "en"),
+                "hl": os.environ.get("GEMINI_LANGUAGE", "id"),
                 "_reqid": self._reqid,
                 "rt": "c",
                 "f.sid": sid,
